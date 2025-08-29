@@ -4,8 +4,8 @@ Owed = float(Owed)
 APR = input("APR:")
 APR = float(APR)
 MPR = APR / 12
-MPR = float(round(MPR,3))
-print(f"Monthly percentage rate: {MPR}")
+roundedMPR = float(round(MPR,3))
+print(f"Monthly percentage rate: {roundedMPR}")
 actMPR = MPR/100
 Min = Owed * actMPR
 Min = float(round(Min,2))
